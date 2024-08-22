@@ -51,8 +51,7 @@ Calcula o consumo médio de um produto dividindo a quantidade de requisições p
    
 Execute este comando uma única vez no diretório do projeto pelo terminal, logo após realizar o clone.
 
-   ```bash
-   ng serve --pen
+  ng serve --pen
    
 Sempre que desejar rodar o projeto, execute este comando pelo terminal no diretório do projeto.
 
