@@ -1,5 +1,17 @@
 # ModelApp
 
+## Tecnologias Utilizadas
+
+- **Angular**: Framework principal para desenvolvimento da aplicação.
+- **TypeScript**: Linguagem de programação utilizada no desenvolvimento em Angular.
+- **HTML5 & CSS3**: Para a estruturação e estilização do conteúdo.
+- **My JSON Server**: Ferramenta utilizada para criar uma API fake para o consumo de dados.
+
+## Requisitos
+
+- Node.js e npm instalados na máquina.
+- Angular CLI instalado globalmente.
+
 ## Backend Simulado
 
 Para servir esta aplicação Angular, utilizamos um servidor mock baseado em JSON, fornecido pelo My JSON Server. Este servidor simula uma API REST e é ideal para testes e desenvolvimento, permitindo que a aplicação funcione sem a necessidade de um backend real.
