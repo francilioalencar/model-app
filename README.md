@@ -36,17 +36,20 @@ Calcula o consumo médio de um produto dividindo a quantidade de requisições p
    
 4. Entre no diretório do projeto clonado:
 
-```bash
-cd modelapp
+      ```bash
+   cd modelapp
+   
 5. Execute o comando _npm install_ para instalar os pacotes necessários e criar as dependências entre os pacotes:
-```bash 
-npm install
+
+   ```bash
+   npm install
+   
 
 # Comandos Necessários
-```bash npm install
+npm install
 Execute este comando uma única vez no diretório do projeto pelo terminal, logo após realizar o clone.
 
-```bash ng serve --open
+ng serve --open
 Sempre que desejar rodar o projeto, execute este comando pelo terminal no diretório do projeto.
 
 # Informações Adicionais
