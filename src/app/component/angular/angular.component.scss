@@ -1,0 +1,44 @@
+.angular-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4px 4px;
+    
+}
+
+.angula-text-full{
+
+    border: 3px solid #333;
+    border-radius: 6px;
+    padding: 4px 4px;
+    width: 100%;
+}
+
+.angular-card{
+    margin-top: 8px;
+    gap: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img{
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-shadow: 0px 10px 10px 0px #ccc;
+        margin-bottom: 14px;
+    }
+}
+
+.angular-card-item{
+    border:  3px solid #5e5e5e;
+    border-radius: 6px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 14x;
+}
+
+
+ul li{
+    margin-left: 5%;
+    list-style: circle;
+}

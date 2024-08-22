@@ -1,0 +1,49 @@
+.produto-container{
+    width: 100%;
+
+
+    & .produto-container-table{
+        max-height: 50vh;
+        overflow: auto;
+        border-bottom: 1px solid #000;
+    }
+
+}
+table{
+    width: 100%;
+    padding: 4px 4px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+    th{
+        text-align: left;
+        padding: 2px 2px;
+        
+    }
+
+    td {
+        text-align: left;
+        padding: 2px 2px;
+        
+    }
+    thead{
+        background-color: #333;
+        color: #fff;
+    }
+
+    .trColor{
+        background-color: #ccc;
+    }
+    .tr{
+        background-color: #fff;
+    }
+
+    tr:hover{
+        background-color: #d8f5ca;
+    }
+
+    .tr-select{
+        background-color: #d8f5ca;
+    }
+}

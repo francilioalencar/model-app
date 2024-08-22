@@ -1,0 +1,106 @@
+<div class="angular-container">
+
+
+    <div class="angular-certificados">
+
+
+        <div class="angular-certificados" [style.--width]="'100%'">
+
+            <h4>Esta aplicação foi desenvolvida em Angular, utilizando os seguintes recursos:</h4>
+            
+                <p>
+                    <b>Rotas:</b>
+O sistema de rotas do Angular permite navegação fluida entre as diferentes seções da aplicação, sem a necessidade de recarregar a página, garantindo uma experiência de usuário contínua e intuitiva.
+                </p>
+                <p>
+                    <b>Componentização:</b>
+A interface foi estruturada em componentes reutilizáveis e independentes, facilitando a manutenção, o desenvolvimento de novas funcionalidades e assegurando um código mais organizado e limpo.
+                </p>
+                <p>
+                    <b>Services:</b>
+Os serviços centralizam a lógica de negócios e a comunicação com APIs, mantendo os componentes focados na apresentação. Isso torna o código mais enxuto e fácil de testar, além de favorecer o reaproveitamento de lógica em diferentes partes da aplicação.
+                </p>
+            
+
+        </div>
+
+
+        <div class="angular-certificados" [style.--width]="'30%'">
+            <img src="../../../assets/certificados/angular/formacao-angular.png" width="100%">
+        </div>
+        <div class="angular-certificados" [style.--width]="'30%'">
+
+            <ul>
+                <h4>formação Angular</h4>
+                <li>Ganhando Produtividade com Angular</li>
+                <li>Trabalhando com Rotas e Serviços no Angular</li>
+                <li>Aplicações Inteligentes com Angular</li>
+                <li>Manipulando Fluxos no Angular</li>
+                <li>Trabalhando com Guards no Angular</li>
+            </ul>
+
+        </div>
+        
+        <div class="angular-certificados" [style.--width]="'30%'">
+
+            <ul>
+                <h4>Projetos da formação Angular</h4>
+                <li><a href="https://github.com/francilioalencar/store-app" target="_blank">Recriando a Interface da PlayStation Store com Angular</a></li>
+                <li><a href="https://github.com/francilioalencar/buzFeed" target="_blank">Criando um Clone do BuzzFeed com Angular</a></li>
+                <li><a href="https://github.com/francilioalencar/blog-app" target="_blank">Criando um Blog com Angular</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="angular-certificados">
+        <div class="angular-certificados" [style.--width]="'30%'">
+            <img src="../../../assets/certificados/angular/componentizacao-formulario-api.png" width="100%">
+        </div>
+        <div class="angular-certificados" [style.--width]="'30%'">
+            <h4>Compenetização, Formulários e Integração com API's</h4>
+            <ul>
+                <li>Serviços e injeção de dependencia</li>
+                <li>Fomulário controlado</li>
+                <li>Dropdown de origem e destino</li>
+                <li>Controlando a modal</li>
+            </ul>
+
+        </div>
+        <div class="angular-certificados" [style.--width]="'30%'">
+            <table [width]="'100%'">
+                <tr>
+                    <td>
+                        <form [formGroup]="angularFormGroup.formGroup">
+                            <label>Digite algo</label>
+                            <input type="text" formControlName="describe" />
+                            <button (click)="angularFormGroup.submitForm()">Simular Submit</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Texto digitado:</p>
+                        <p>{{angularFormGroup.formGroup.get('describe')?.value}}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <p>Envio de dados para API</p>
+                        {{angularFormGroup.textSubmit}}
+                    </td>
+                </tr>
+            </table>
+            
+            
+
+        </div>
+        
+
+
+
+        
+
+    </div>
+    
+
+</div>

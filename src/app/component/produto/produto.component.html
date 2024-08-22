@@ -1,0 +1,74 @@
+<div class="produto-container">
+
+    <div class="produto-container-table">
+        <table [cellSpacing]="0">
+            <thead>
+                <tr>
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Situação</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of produtos"
+                    [ngClass]="idSelect=== p.codigo ? 'tr-select' : (p.codigo % 2) === 0 ? 'trColor' : 'tr'">
+                    <td><a (click)="selectId(p.codigo)">{{p.codigo}}</a></td>
+                    <td><a (click)="selectId(p.codigo)">{{p.descricao}}</a></td>
+                    <td><a (click)="selectId(p.codigo)">{{p.situacao}}</a></td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4>Estoque</h4>
+    <div class="produto-container-table">
+        <table [cellSpacing]="0">
+            <thead>
+                <tr>
+                    <th>Saldo</th>
+                    <th>Dias estoque</th>
+                    <th>Quantidade requisitada</th>
+                    <th>Consumo médio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{quantidasdeEstoque}}</td>
+                    <td>{{diaEstoque}}</td>
+                    <td>{{quantidasdeRequisitadaEstoque}}</td>
+                    <td>{{ consumoMedioItem }}</td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </div>
+    <h4>Requisições ao almoxarifado</h4>
+    <div class="produto-container-table">
+        <table [cellSpacing]="0">
+            <thead>
+                <tr>
+                
+                    <th>Código</th>
+                    <th>Qtd requisitada</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of requisicaoProduto"
+                >
+                    <td><a (click)="selectId(p.codigo_produto)">{{p.codigo_produto}}</a></td>
+                    <td><a (click)="selectId(p.codigo_produto)">{{p.quantidade}}</a></td>
+                    <td><a (click)="selectId(p.codigo_produto)">{{p.data_requisicao}}</a></td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
