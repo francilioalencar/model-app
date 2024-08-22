@@ -46,10 +46,14 @@ Calcula o consumo médio de um produto dividindo a quantidade de requisições p
    
 
 # Comandos Necessários
-npm install
+   ```bash
+   npm install
+   
 Execute este comando uma única vez no diretório do projeto pelo terminal, logo após realizar o clone.
 
-ng serve --open
+   ```bash
+   ng serve --pen
+   
 Sempre que desejar rodar o projeto, execute este comando pelo terminal no diretório do projeto.
 
 # Informações Adicionais
